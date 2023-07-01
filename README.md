@@ -8,6 +8,8 @@ WebMath Test Automation
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
+- [Manual Testing](#manual-testing)
+   
 
 ## Project Overview
 
