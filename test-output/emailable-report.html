@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Base Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Numbers</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">43,541</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Decimals</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">22,843</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Fractions</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">126,957</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Scientific Notation</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">88,856</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">19</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">282,200</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Numbers &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.GeneralMathModule.NumbersComponent</td><td><a href="#m0">testFactor</a></td><td rowspan="1">1688224950479</td><td rowspan="1">4133</td></tr><tr class="passedeven"><td><a href="#m1">testGCF</a></td><td rowspan="1">1688224959632</td><td rowspan="1">8306</td></tr><tr class="passedeven"><td><a href="#m2">testLCM</a></td><td rowspan="1">1688224972543</td><td rowspan="1">4086</td></tr><tr class="passedeven"><td><a href="#m3">testPronouncing</a></td><td rowspan="1">1688224981300</td><td rowspan="1">5427</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Decimals &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GeneralMathModule.DecimalsComponent</td><td><a href="#m4">testFractionToDecimal</a></td><td rowspan="1">1688224991836</td><td rowspan="1">8566</td></tr><tr><th colspan="4">Decimals &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.GeneralMathModule.DecimalsComponent</td><td><a href="#m5">testDecimalToFraction</a></td><td rowspan="1">1688225005277</td><td rowspan="1">4319</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Fractions &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GeneralMathModule.FractionComponent</td><td><a href="#m6">testConvertImproperFractToMixedNum</a></td><td rowspan="1">1688225117342</td><td rowspan="1">8777</td></tr><tr><th colspan="4">Fractions &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.GeneralMathModule.FractionComponent</td><td><a href="#m7">testAddMixedAndFractionNumber</a></td><td rowspan="1">1688225048408</td><td rowspan="1">6536</td></tr><tr class="passedeven"><td><a href="#m8">testAddTwoFraction</a></td><td rowspan="1">1688225031698</td><td rowspan="1">12032</td></tr><tr class="passedeven"><td><a href="#m9">testAddTwoMixedNumber</a></td><td rowspan="1">1688225059892</td><td rowspan="1">9282</td></tr><tr class="passedeven"><td><a href="#m10">testDivideTwoFraction</a></td><td rowspan="1">1688225102474</td><td rowspan="1">9931</td></tr><tr class="passedeven"><td><a href="#m11">testMixedToImproperFractionNum</a></td><td rowspan="1">1688225131103</td><td rowspan="1">5486</td></tr><tr class="passedeven"><td><a href="#m12">testMultiplyTwoFraction</a></td><td rowspan="1">1688225088761</td><td rowspan="1">8692</td></tr><tr class="passedeven"><td><a href="#m13">testReduce</a></td><td rowspan="1">1688225014538</td><td rowspan="1">12255</td></tr><tr class="passedeven"><td><a href="#m14">testSubtractTwoFraction</a></td><td rowspan="1">1688225073805</td><td rowspan="1">10127</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Scientific Notation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GeneralMathModule.ScientificNotationComponent</td><td><a href="#m15">testDivideTwoNumOneOfThemIsScientificNotation</a></td><td rowspan="1">1688225181759</td><td rowspan="1">5588</td></tr><tr><th colspan="4">Scientific Notation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.GeneralMathModule.ScientificNotationComponent</td><td><a href="#m16">ConvertNumFromRegularToScientificNotation</a></td><td rowspan="1">1688225219226</td><td rowspan="1">6478</td></tr><tr class="passedeven"><td><a href="#m17">testConvertNumFromScientificToRegularNotation</a></td><td rowspan="1">1688225204396</td><td rowspan="1">8301</td></tr><tr class="passedeven"><td><a href="#m18">testDivideTwoNumBothInScientificNotation</a></td><td rowspan="1">1688225171471</td><td rowspan="1">5310</td></tr><tr class="passedeven"><td><a href="#m19">testDivideTwoNumOneOfThemIsScientificNotation2</a></td><td rowspan="1">1688225192285</td><td rowspan="1">7194</td></tr><tr class="passedeven"><td><a href="#m20">testMultiplyTwoNumWithSingleScientificNotation</a></td><td rowspan="1">1688225158284</td><td rowspan="1">6081</td></tr><tr class="passedeven"><td><a href="#m21">testMultiplyTwoNumWithTwoScientificNotation</a></td><td rowspan="1">1688225144953</td><td rowspan="1">7201</td></tr></tbody>
+</table>
+<h2>Base Test</h2><h2>Numbers</h2><h3 id="m0">com.GeneralMathModule.NumbersComponent#testFactor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.GeneralMathModule.NumbersComponent#testGCF</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.GeneralMathModule.NumbersComponent#testLCM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.GeneralMathModule.NumbersComponent#testPronouncing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Decimals</h2><h3 id="m4">com.GeneralMathModule.DecimalsComponent#testFractionToDecimal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/font/font/p[2]&quot;}
+  (Session info: chrome=114.0.5735.198)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [224296b2f1354d5a0981510470407e52, findElement {using=xpath, value=/html/body/font/font/p[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/6y/1k9wd15d1w5...}, goog:chromeOptions: {debuggerAddress: localhost:57240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57240/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 224296b2f1354d5a0981510470407e52
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.GeneralMathModule.DecimalsComponent.testFractionToDecimal(DecimalsComponent.java:170)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.GeneralMathModule.DecimalsComponent#testDecimalToFraction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Fractions</h2><h3 id="m6">com.GeneralMathModule.FractionComponent#testConvertImproperFractToMixedNum</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.GeneralMathModule.FractionComponent.testConvertImproperFractToMixedNum(FractionComponent.java:492)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.GeneralMathModule.FractionComponent#testAddMixedAndFractionNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.GeneralMathModule.FractionComponent#testAddTwoFraction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.GeneralMathModule.FractionComponent#testAddTwoMixedNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.GeneralMathModule.FractionComponent#testDivideTwoFraction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.GeneralMathModule.FractionComponent#testMixedToImproperFractionNum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.GeneralMathModule.FractionComponent#testMultiplyTwoFraction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.GeneralMathModule.FractionComponent#testReduce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.GeneralMathModule.FractionComponent#testSubtractTwoFraction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Scientific Notation</h2><h3 id="m15">com.GeneralMathModule.ScientificNotationComponent#testDivideTwoNumOneOfThemIsScientificNotation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.GeneralMathModule.ScientificNotationComponent.testDivideTwoNumOneOfThemIsScientificNotation(ScientificNotationComponent.java:300)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.GeneralMathModule.ScientificNotationComponent#ConvertNumFromRegularToScientificNotation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.GeneralMathModule.ScientificNotationComponent#testConvertNumFromScientificToRegularNotation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.GeneralMathModule.ScientificNotationComponent#testDivideTwoNumBothInScientificNotation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.GeneralMathModule.ScientificNotationComponent#testDivideTwoNumOneOfThemIsScientificNotation2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.GeneralMathModule.ScientificNotationComponent#testMultiplyTwoNumWithSingleScientificNotation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.GeneralMathModule.ScientificNotationComponent#testMultiplyTwoNumWithTwoScientificNotation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

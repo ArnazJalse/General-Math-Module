@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Decimals(failed)">
+    <parameter name="author" value="Arbaz"/>
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.GeneralMathModule.DecimalsComponent">
+        <methods>
+          <include name="testFractionToDecimal"/>
+          <include name="generateExtentReports"/>
+          <include name="setUp"/>
+          <include name="initialiseExtentReports"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.GeneralMathModule.DecimalsComponent -->
+    </classes>
+  </test> <!-- Decimals(failed) -->
+  <test thread-count="5" name="Fractions(failed)">
+    <parameter name="author" value="Arbaz"/>
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.GeneralMathModule.FractionComponent">
+        <methods>
+          <include name="testConvertImproperFractToMixedNum"/>
+          <include name="setUp"/>
+          <include name="generateExtentReports"/>
+          <include name="tearDown"/>
+          <include name="initialiseExtentReports"/>
+        </methods>
+      </class> <!-- com.GeneralMathModule.FractionComponent -->
+    </classes>
+  </test> <!-- Fractions(failed) -->
+  <test thread-count="5" name="Scientific Notation(failed)">
+    <parameter name="author" value="Arnaz"/>
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.GeneralMathModule.ScientificNotationComponent">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="generateExtentReports"/>
+          <include name="initialiseExtentReports"/>
+          <include name="testDivideTwoNumOneOfThemIsScientificNotation"/>
+        </methods>
+      </class> <!-- com.GeneralMathModule.ScientificNotationComponent -->
+    </classes>
+  </test> <!-- Scientific Notation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

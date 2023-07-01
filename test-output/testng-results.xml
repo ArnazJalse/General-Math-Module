@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="19" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-01T20:52:22 IST" name="Suite" finished-at="2023-07-01T20:57:05 IST" duration-ms="282907">
+    <groups>
+    </groups>
+    <test started-at="2023-07-01T20:52:22 IST" name="Base Test" finished-at="2023-07-01T20:52:22 IST" duration-ms="3">
+    </test> <!-- Base Test -->
+    <test started-at="2023-07-01T20:52:23 IST" name="Numbers" finished-at="2023-07-01T20:53:06 IST" duration-ms="43541">
+      <class name="com.GeneralMathModule.NumbersComponent">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:23 IST" name="setUp" finished-at="2023-07-01T20:52:30 IST" duration-ms="7174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62159fd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFactor()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:30 IST" name="testFactor" finished-at="2023-07-01T20:52:34 IST" duration-ms="4133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFactor -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:34 IST" name="tearDown" finished-at="2023-07-01T20:52:34 IST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.NumbersComponent.testFactor()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testFactor status=SUCCESS method=NumbersComponent.testFactor()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:34 IST" name="setUp" finished-at="2023-07-01T20:52:39 IST" duration-ms="4893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62159fd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGCF()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:39 IST" name="testGCF" finished-at="2023-07-01T20:52:47 IST" duration-ms="8306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGCF -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:47 IST" name="tearDown" finished-at="2023-07-01T20:52:48 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.NumbersComponent.testGCF()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testGCF status=SUCCESS method=NumbersComponent.testGCF()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:48 IST" name="setUp" finished-at="2023-07-01T20:52:52 IST" duration-ms="4489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62159fd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLCM()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:52 IST" name="testLCM" finished-at="2023-07-01T20:52:56 IST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLCM -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:56 IST" name="tearDown" finished-at="2023-07-01T20:52:56 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.NumbersComponent.testLCM()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testLCM status=SUCCESS method=NumbersComponent.testLCM()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:52:56 IST" name="setUp" finished-at="2023-07-01T20:53:01 IST" duration-ms="4555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62159fd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPronouncing()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:53:01 IST" name="testPronouncing" finished-at="2023-07-01T20:53:06 IST" duration-ms="5427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPronouncing -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15]" started-at="2023-07-01T20:53:06 IST" name="tearDown" finished-at="2023-07-01T20:53:06 IST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.NumbersComponent.testPronouncing()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testPronouncing status=SUCCESS method=NumbersComponent.testPronouncing()[pri:0, instance:com.GeneralMathModule.NumbersComponent@4a883b15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.GeneralMathModule.NumbersComponent -->
+    </test> <!-- Numbers -->
+    <test started-at="2023-07-01T20:53:06 IST" name="Decimals" finished-at="2023-07-01T20:53:29 IST" duration-ms="22843">
+      <class name="com.GeneralMathModule.DecimalsComponent">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40]" started-at="2023-07-01T20:53:06 IST" name="setUp" finished-at="2023-07-01T20:53:11 IST" duration-ms="4969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c37ac3c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFractionToDecimal()[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40]" started-at="2023-07-01T20:53:11 IST" name="testFractionToDecimal" finished-at="2023-07-01T20:53:20 IST" duration-ms="8566" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/font/font/p[2]"}
+  (Session info: chrome=114.0.5735.198)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [224296b2f1354d5a0981510470407e52, findElement {using=xpath, value=/html/body/font/font/p[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/6y/1k9wd15d1w5...}, goog:chromeOptions: {debuggerAddress: localhost:57240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57240/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 224296b2f1354d5a0981510470407e52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/font/font/p[2]"}
+  (Session info: chrome=114.0.5735.198)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [224296b2f1354d5a0981510470407e52, findElement {using=xpath, value=/html/body/font/font/p[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/6y/1k9wd15d1w5...}, goog:chromeOptions: {debuggerAddress: localhost:57240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57240/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 224296b2f1354d5a0981510470407e52
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at com.GeneralMathModule.DecimalsComponent.testFractionToDecimal(DecimalsComponent.java:170)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFractionToDecimal -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40]" started-at="2023-07-01T20:53:20 IST" name="tearDown" finished-at="2023-07-01T20:53:20 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.DecimalsComponent.testFractionToDecimal()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testFractionToDecimal status=FAILURE method=DecimalsComponent.testFractionToDecimal()[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40]" started-at="2023-07-01T20:53:20 IST" name="setUp" finished-at="2023-07-01T20:53:25 IST" duration-ms="4758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c37ac3c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDecimalToFraction()[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40]" started-at="2023-07-01T20:53:25 IST" name="testDecimalToFraction" finished-at="2023-07-01T20:53:29 IST" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimalToFraction -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40]" started-at="2023-07-01T20:53:29 IST" name="tearDown" finished-at="2023-07-01T20:53:29 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.DecimalsComponent.testDecimalToFraction()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testDecimalToFraction status=SUCCESS method=DecimalsComponent.testDecimalToFraction()[pri:0, instance:com.GeneralMathModule.DecimalsComponent@e350b40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.GeneralMathModule.DecimalsComponent -->
+    </test> <!-- Decimals -->
+    <test started-at="2023-07-01T20:53:29 IST" name="Fractions" finished-at="2023-07-01T20:55:36 IST" duration-ms="126957">
+      <class name="com.GeneralMathModule.FractionComponent">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:53:29 IST" name="setUp" finished-at="2023-07-01T20:53:34 IST" duration-ms="4798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testReduce()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:53:34 IST" name="testReduce" finished-at="2023-07-01T20:53:46 IST" duration-ms="12255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReduce -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:53:46 IST" name="tearDown" finished-at="2023-07-01T20:53:46 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testReduce()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testReduce status=SUCCESS method=FractionComponent.testReduce()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:53:46 IST" name="setUp" finished-at="2023-07-01T20:53:51 IST" duration-ms="4792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:53:51 IST" name="testAddTwoFraction" finished-at="2023-07-01T20:54:03 IST" duration-ms="12032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTwoFraction -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:03 IST" name="tearDown" finished-at="2023-07-01T20:54:03 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testAddTwoFraction()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testAddTwoFraction status=SUCCESS method=FractionComponent.testAddTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:03 IST" name="setUp" finished-at="2023-07-01T20:54:08 IST" duration-ms="4566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMixedAndFractionNumber()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:08 IST" name="testAddMixedAndFractionNumber" finished-at="2023-07-01T20:54:14 IST" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMixedAndFractionNumber -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:14 IST" name="tearDown" finished-at="2023-07-01T20:54:15 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testAddMixedAndFractionNumber()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testAddMixedAndFractionNumber status=SUCCESS method=FractionComponent.testAddMixedAndFractionNumber()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:15 IST" name="setUp" finished-at="2023-07-01T20:54:19 IST" duration-ms="4835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddTwoMixedNumber()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:19 IST" name="testAddTwoMixedNumber" finished-at="2023-07-01T20:54:29 IST" duration-ms="9282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTwoMixedNumber -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:29 IST" name="tearDown" finished-at="2023-07-01T20:54:29 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testAddTwoMixedNumber()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testAddTwoMixedNumber status=SUCCESS method=FractionComponent.testAddTwoMixedNumber()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:29 IST" name="setUp" finished-at="2023-07-01T20:54:33 IST" duration-ms="4515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubtractTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:33 IST" name="testSubtractTwoFraction" finished-at="2023-07-01T20:54:43 IST" duration-ms="10127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractTwoFraction -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:43 IST" name="tearDown" finished-at="2023-07-01T20:54:44 IST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testSubtractTwoFraction()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testSubtractTwoFraction status=SUCCESS method=FractionComponent.testSubtractTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:44 IST" name="setUp" finished-at="2023-07-01T20:54:48 IST" duration-ms="4699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultiplyTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:48 IST" name="testMultiplyTwoFraction" finished-at="2023-07-01T20:54:57 IST" duration-ms="8692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplyTwoFraction -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:57 IST" name="tearDown" finished-at="2023-07-01T20:54:57 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testMultiplyTwoFraction()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testMultiplyTwoFraction status=SUCCESS method=FractionComponent.testMultiplyTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:54:57 IST" name="setUp" finished-at="2023-07-01T20:55:02 IST" duration-ms="4910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDivideTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:02 IST" name="testDivideTwoFraction" finished-at="2023-07-01T20:55:12 IST" duration-ms="9931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideTwoFraction -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:12 IST" name="tearDown" finished-at="2023-07-01T20:55:12 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testDivideTwoFraction()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testDivideTwoFraction status=SUCCESS method=FractionComponent.testDivideTwoFraction()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:12 IST" name="setUp" finished-at="2023-07-01T20:55:17 IST" duration-ms="4825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConvertImproperFractToMixedNum()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:17 IST" name="testConvertImproperFractToMixedNum" finished-at="2023-07-01T20:55:26 IST" duration-ms="8777" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.GeneralMathModule.FractionComponent.testConvertImproperFractToMixedNum(FractionComponent.java:492)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertImproperFractToMixedNum -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:26 IST" name="tearDown" finished-at="2023-07-01T20:55:26 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testConvertImproperFractToMixedNum()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testConvertImproperFractToMixedNum status=FAILURE method=FractionComponent.testConvertImproperFractToMixedNum()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:26 IST" name="setUp" finished-at="2023-07-01T20:55:31 IST" duration-ms="4872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2682cccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMixedToImproperFractionNum()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:31 IST" name="testMixedToImproperFractionNum" finished-at="2023-07-01T20:55:36 IST" duration-ms="5486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMixedToImproperFractionNum -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488]" started-at="2023-07-01T20:55:36 IST" name="tearDown" finished-at="2023-07-01T20:55:36 IST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.FractionComponent.testMixedToImproperFractionNum()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testMixedToImproperFractionNum status=SUCCESS method=FractionComponent.testMixedToImproperFractionNum()[pri:0, instance:com.GeneralMathModule.FractionComponent@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.GeneralMathModule.FractionComponent -->
+    </test> <!-- Fractions -->
+    <test started-at="2023-07-01T20:55:36 IST" name="Scientific Notation" finished-at="2023-07-01T20:57:05 IST" duration-ms="88856">
+      <class name="com.GeneralMathModule.ScientificNotationComponent">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:52:22 IST" name="initialiseExtentReports" finished-at="2023-07-01T20:52:22 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:55:36 IST" name="setUp" finished-at="2023-07-01T20:55:44 IST" duration-ms="7977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae08750]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultiplyTwoNumWithTwoScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:55:44 IST" name="testMultiplyTwoNumWithTwoScientificNotation" finished-at="2023-07-01T20:55:52 IST" duration-ms="7201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplyTwoNumWithTwoScientificNotation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:55:52 IST" name="tearDown" finished-at="2023-07-01T20:55:52 IST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.ScientificNotationComponent.testMultiplyTwoNumWithTwoScientificNotation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testMultiplyTwoNumWithTwoScientificNotation status=SUCCESS method=ScientificNotationComponent.testMultiplyTwoNumWithTwoScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:55:52 IST" name="setUp" finished-at="2023-07-01T20:55:58 IST" duration-ms="6018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae08750]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultiplyTwoNumWithSingleScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:55:58 IST" name="testMultiplyTwoNumWithSingleScientificNotation" finished-at="2023-07-01T20:56:04 IST" duration-ms="6081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplyTwoNumWithSingleScientificNotation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:04 IST" name="tearDown" finished-at="2023-07-01T20:56:04 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.ScientificNotationComponent.testMultiplyTwoNumWithSingleScientificNotation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testMultiplyTwoNumWithSingleScientificNotation status=SUCCESS method=ScientificNotationComponent.testMultiplyTwoNumWithSingleScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:04 IST" name="setUp" finished-at="2023-07-01T20:56:11 IST" duration-ms="6993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae08750]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDivideTwoNumBothInScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:11 IST" name="testDivideTwoNumBothInScientificNotation" finished-at="2023-07-01T20:56:16 IST" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideTwoNumBothInScientificNotation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:16 IST" name="tearDown" finished-at="2023-07-01T20:56:16 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.ScientificNotationComponent.testDivideTwoNumBothInScientificNotation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testDivideTwoNumBothInScientificNotation status=SUCCESS method=ScientificNotationComponent.testDivideTwoNumBothInScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:16 IST" name="setUp" finished-at="2023-07-01T20:56:21 IST" duration-ms="4864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae08750]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDivideTwoNumOneOfThemIsScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:21 IST" name="testDivideTwoNumOneOfThemIsScientificNotation" finished-at="2023-07-01T20:56:27 IST" duration-ms="5588" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.GeneralMathModule.ScientificNotationComponent.testDivideTwoNumOneOfThemIsScientificNotation(ScientificNotationComponent.java:300)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideTwoNumOneOfThemIsScientificNotation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:27 IST" name="tearDown" finished-at="2023-07-01T20:56:27 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.ScientificNotationComponent.testDivideTwoNumOneOfThemIsScientificNotation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testDivideTwoNumOneOfThemIsScientificNotation status=FAILURE method=ScientificNotationComponent.testDivideTwoNumOneOfThemIsScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:27 IST" name="setUp" finished-at="2023-07-01T20:56:32 IST" duration-ms="4825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae08750]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDivideTwoNumOneOfThemIsScientificNotation2()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:32 IST" name="testDivideTwoNumOneOfThemIsScientificNotation2" finished-at="2023-07-01T20:56:39 IST" duration-ms="7194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideTwoNumOneOfThemIsScientificNotation2 -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:39 IST" name="tearDown" finished-at="2023-07-01T20:56:39 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.ScientificNotationComponent.testDivideTwoNumOneOfThemIsScientificNotation2()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testDivideTwoNumOneOfThemIsScientificNotation2 status=SUCCESS method=ScientificNotationComponent.testDivideTwoNumOneOfThemIsScientificNotation2()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:39 IST" name="setUp" finished-at="2023-07-01T20:56:44 IST" duration-ms="4792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae08750]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConvertNumFromScientificToRegularNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:44 IST" name="testConvertNumFromScientificToRegularNotation" finished-at="2023-07-01T20:56:52 IST" duration-ms="8301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertNumFromScientificToRegularNotation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:52 IST" name="tearDown" finished-at="2023-07-01T20:56:52 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.ScientificNotationComponent.testConvertNumFromScientificToRegularNotation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testConvertNumFromScientificToRegularNotation status=SUCCESS method=ScientificNotationComponent.testConvertNumFromScientificToRegularNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:52 IST" name="setUp" finished-at="2023-07-01T20:56:59 IST" duration-ms="6415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae08750]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ConvertNumFromRegularToScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:56:59 IST" name="ConvertNumFromRegularToScientificNotation" finished-at="2023-07-01T20:57:05 IST" duration-ms="6478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConvertNumFromRegularToScientificNotation -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:57:05 IST" name="tearDown" finished-at="2023-07-01T20:57:05 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.GeneralMathModule.ScientificNotationComponent.ConvertNumFromRegularToScientificNotation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ConvertNumFromRegularToScientificNotation status=SUCCESS method=ScientificNotationComponent.ConvertNumFromRegularToScientificNotation()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:com.GeneralMathModule.ScientificNotationComponent@46cdf8bd]" started-at="2023-07-01T20:57:06 IST" name="generateExtentReports" finished-at="2023-07-01T20:57:06 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- com.GeneralMathModule.ScientificNotationComponent -->
+    </test> <!-- Scientific Notation -->
+  </suite> <!-- Suite -->
+</testng-results>
