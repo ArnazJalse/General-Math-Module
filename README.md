@@ -8,8 +8,6 @@ WebMath Test Automation
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
