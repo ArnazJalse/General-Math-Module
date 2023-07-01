@@ -22,8 +22,8 @@
     </classes>
   </test> 
   <test name="Decimals">
-  	<parameter name="browser" value="Chrome" />
-  	<parameter name="author" value="Arbaz" />
+  	<parameter name="browser" value="Safari" />
+  	<parameter name="author" value="Arnaz" />
     <classes>
       <class name="com.GeneralMathModule.DecimalsComponent">
       	<methods>
@@ -35,7 +35,7 @@
   </test> 
     <test name="Fractions">
   	<parameter name="browser" value="Chrome" />
-  	<parameter name="author" value="Arbaz" />
+  	<parameter name="author" value="Arnaz" />
     <classes>
       <class name="com.GeneralMathModule.FractionComponent">
       	<methods>
@@ -53,7 +53,7 @@
     </classes>
   </test> 
   <test name="Scientific Notation">
-  	<parameter name="browser" value="Chrome" />
+  	<parameter name="browser" value="Safari" />
   	<parameter name="author" value="Arnaz" />
     <classes>
       <class name="com.GeneralMathModule.ScientificNotationComponent">
