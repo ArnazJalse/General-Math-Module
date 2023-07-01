@@ -70,6 +70,9 @@ The project contains automated test scripts for testing the functionality of the
 
    - After executing the tests, the Extent Reports HTML report will be generated in the project's target directory
    - Open the generated HTML report in a web browser to view the detailed test execution results
+  
+    <img width="1488" alt="Screenshot 2023-07-01 at 10 03 18 PM" src="https://github.com/ArnazJalse/General-Math-Module/assets/77377394/22bc4870-7c08-4044-beda-419013f34807">
+
 
 ## Configuration
 
