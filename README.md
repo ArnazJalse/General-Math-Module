@@ -1,4 +1,4 @@
-# Project Name
+# General Math Test Automation
 
 WebMath Test Automation
 
